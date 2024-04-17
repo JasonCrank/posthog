@@ -52,7 +52,7 @@ fi
 export POSTHOG_APP_TAG="7e9d67130d0985ff2bebd32d6f86b8c33029afcc"
 
 cd posthog
-git pull
+git checkout $POSTHOG_APP_TAG
 cd ../
 
 # Upgrade Docker Compose to version 2.13.0
